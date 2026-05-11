@@ -1,0 +1,11 @@
+#!/bin/sh
+ 
+commit_msg_file=$1
+ 
+"./docubot-agent/DocuBot.Agent.exe" "$commit_msg_file"
+ 
+if [ $? -ne 0 ]; then 
+	exit 1 
+fi
+ 
+exit 0
