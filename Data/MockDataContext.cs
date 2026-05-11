@@ -26,7 +26,7 @@ namespace AngularApp.BackendAPI.Data
 
         public static List<User> Users { get; set; } = new List<User>
         {
-            new User { Id = 1, FullName = "Admin User", Email = "admin@example.com", Password = "password1234", RoleId = 1, DesignationId = 2, GenderId = 1 }
+            new User { Id = 1, FullName = "Admin User", Email = "admin@example.com", Password = "password123", RoleId = 1, DesignationId = 2, GenderId = 1 }
         };
     }
 }
