@@ -18,6 +18,7 @@ namespace AngularApp.BackendAPI.Data
             new Designation { Id = 4, Name = "Developer" },
             new Designation { Id = 5, Name = "Lead Developer" },
             new Designation { Id = 6, Name = "TL" },
+            new Designation { Id = 7, Name = "Project Manager" },
         };
 
         public static List<Gender> Genders { get; set; } = new List<Gender>
